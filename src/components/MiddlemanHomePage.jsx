@@ -46,14 +46,12 @@ const MiddlemanHomePage = () => {
               <Card.Body>
                 <div className="text-center">
                   <Card.Title>{firstName} {lastName}</Card.Title>
-                  <Card.Text><b>Location: {addressLine} {city} {state} {postCode}</b></Card.Text>
+                  <Card.Text><b>Location: {addressLine} {city} {state} {postCode}</b>
+                    <a href={`https://maps.google.com/?q=${addressLine} ${city} ${state} ${postCode}`} target="_blank" rel="noopener noreferrer">
+                      <MdLocationOn className="location-icon" />Map</a>
+                  </Card.Text>
                   <Card.Text><b>Phone: {phone}</b></Card.Text>
                   <Card.Text className={isDiscreetVisit ? "text-danger" : ""}><b>Visit Type: {visitType}</b></Card.Text>
-                  <div className="mb-1">
-                    <a href={`https://maps.google.com/?q=${addressLine} ${city} ${state} ${postCode}`} target="_blank" rel="noopener noreferrer">
-                      <MdLocationOn className="location-icon" /> View on Map
-                    </a>
-                  </div>
                   <Button variant="primary" target="_blank">Answer the phone</Button>
                   <Button variant="secondary" onClick={() => handleOpenModal(transcription)}>Read transcription</Button>
                 </div>
