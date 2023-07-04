@@ -52,7 +52,7 @@ const MiddlemanHomePage = () => {
                   </Card.Text>
                   <Card.Text><b>Phone: {phone}</b></Card.Text>
                   <Card.Text className={isDiscreetVisit ? "text-danger" : ""}><b>Visit Type: {visitType}</b></Card.Text>
-                  <Button variant="primary" target="_blank">Answer the phone</Button>
+                  <Button variant="primary" target="_blank" href="https://safe-order.netlify.app/conference?id=safe-order%7C1688432269330">Answer the phone</Button>
                   <Button className="mt-1" variant="secondary" onClick={() => handleOpenModal(transcription)}>Read transcription</Button>
                 </div>
               </Card.Body>
