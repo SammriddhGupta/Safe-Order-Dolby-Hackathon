@@ -62,8 +62,9 @@ const MiddlemanHomePage = () => {
     <>
     <NavbarPage/>
     <Container fluid>
+    <Row className='mt-5' ></Row>
       <Row>
-        <Col md={2} className='bg_colour_a mt-4'>
+        <Col md={2} className='bg_colour_a mt-5'>
           <Row>
             <ButtonGroup vertical >
               <Button variant="light" onClick={() => handleFilter("Active")}>ACTIVE CALLS</Button>
@@ -72,7 +73,7 @@ const MiddlemanHomePage = () => {
             </ButtonGroup>
           </Row>
         </Col>
-        <Col className='bg_colour_b mt-4'> {/* Add mt-4 class for margin-top spacing */}
+        <Col className='bg_colour_b mt-5'> {/* Add mt-4 class for margin-top spacing */}
           <Row xs={1} md={4} className="g-4">
             {renderCards()}
           </Row>
