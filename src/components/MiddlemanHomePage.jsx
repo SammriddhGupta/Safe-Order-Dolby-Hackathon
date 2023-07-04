@@ -8,8 +8,8 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Modal from 'react-bootstrap/Modal';
-import callList from '/Users/net/HackathonFrontend/src/components/callList.jsx';
-import NavbarPage from '/Users/net/HackathonFrontend/src/components/NavbarPage.jsx';
+import callList from './callList.jsx';
+import NavbarPage from './NavbarPage.jsx';
 
 const MiddlemanHomePage = () => {
   const [data, setData] = useState(callList);
