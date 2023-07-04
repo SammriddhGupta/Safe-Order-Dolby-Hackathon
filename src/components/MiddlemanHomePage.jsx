@@ -37,7 +37,7 @@ const MiddlemanHomePage = () => {
   const renderCards = () => {
     return filteredData.map((values) => {
       const { id, firstName, lastName, addressLine, city, state, postCode, visitType, transcription, phone } = values;
-      const isSilent = visitType === "Silent"; // Check if Visit Type is "Silent"
+      const isDiscreetVisit = visitType === "Discreet Visit"; // Check if Visit Type is "Silent"
 
       return (
         <Col key={id}>
@@ -47,7 +47,7 @@ const MiddlemanHomePage = () => {
                 <Card.Title>{firstName} {lastName}</Card.Title>
                 <Card.Text><b>Location: {addressLine} {city} {state} {postCode}</b></Card.Text>
                 <Card.Text><b>Phone: {phone}</b></Card.Text>
-                <Card.Text className={isSilent ? "text-danger" : ""}><b>Visit Type: {visitType}</b></Card.Text>
+                <Card.Text className={isDiscreetVisit ? "text-danger" : ""}><b>Visit Type: {visitType}</b></Card.Text>
                 <Button className='mb-1' href='https://safe-order.netlify.app/conference?id=safe-order%7C1688432269330' variant="primary" target="_blank">Answer the phone</Button>
                 <Button variant="secondary" onClick={() => handleOpenModal(transcription)}>Read transcription</Button>
               </Card.Body>
