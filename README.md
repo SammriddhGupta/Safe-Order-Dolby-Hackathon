@@ -19,6 +19,12 @@ Our solution was inspired by an incident where a woman called 911, pretending to
 
 4. run ```npm run dev``` to start the server
 
+### Team
+- Sammriddh Gupta
+- Shuvam Shreshta
+- Kerwin Yen
+- Honggyo Suh
+- Armani Chen
 
 ### The website is deployed via Netlify at 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d832a286-490c-4619-a3e2-73745ffe78d6/deploy-status)](https://app.netlify.com/sites/safeorder/deploys)
