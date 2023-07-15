@@ -30,7 +30,9 @@ Our solution was inspired by an incident where a woman called 911, pretending to
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d832a286-490c-4619-a3e2-73745ffe78d6/deploy-status)](https://app.netlify.com/sites/safeorder/deploys)
 
 Although there are some issues in finding the images and routing correctly so the deployed version does not function fully as intended. 
+
 However, the Dolby Audio-Video conferencing app is deployed separately on Netlify and works perfectly 
+
 To view the website workflow as intended, follow the instructions above to clone and run the project 
 
 Will put up a video demo soon!
