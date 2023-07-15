@@ -8,7 +8,7 @@ const callList = [
       state: "NSW",
       postCode: "2037",
       phone: "0405000000",
-      visitType: "Silent",
+      visitType: "Checkup",
       status: "Active",
       transcription: "I need a seafood pizza. I need a seafood pizza. I need a seafood pizza."
     },
@@ -21,7 +21,7 @@ const callList = [
       state: "CA",
       postCode: "12345",
       phone: "0405000000",
-      visitType: "Regular",
+      visitType: "Discreet Visit",
       status: "Missed",
       transcription: "Please schedule a pizza delivery. Please schedule a pizza delivery."
     },
@@ -34,7 +34,7 @@ const callList = [
       state: "NY",
       postCode: "54321",
       phone: "0405000000",
-      visitType: "Urgent",
+      visitType: "Barge In",
       status: "Pending",
       transcription: "I need immediate pizza assistance. I need immediate pizza assistance."
     },
@@ -47,7 +47,7 @@ const callList = [
       state: "TX",
       postCode: "98765",
       phone: "0405000000",
-      visitType: "Regular",
+      visitType: "Barge In",
       status: "Active",
       transcription: "Can I schedule a pizza delivery for next week? Can I schedule a pizza delivery for next week?"
     },
@@ -60,7 +60,7 @@ const callList = [
       state: "FL",
       postCode: "54321",
       phone: "0405000000",
-      visitType: "Silent",
+      visitType: "Checkup",
       status: "Missed",
       transcription: "I have a question about my pizza order. I have a question about my pizza order."
     },
@@ -73,7 +73,7 @@ const callList = [
       state: "CA",
       postCode: "12345",
       phone: "0405000000",
-      visitType: "Urgent",
+      visitType: "Checkup",
       status: "Pending",
       transcription: "I need immediate pizza medical attention. I need immediate pizza medical attention."
     },
@@ -87,7 +87,7 @@ const callList = [
       state: "FL",
       postCode: "54321",
       phone: "0407000000",
-      visitType: "Regular",
+      visitType: "Barge In",
       status: "Active",
       transcription: "I have a question about my pizza delivery. I have a question about my pizza delivery."
     },
@@ -100,7 +100,7 @@ const callList = [
       state: "CA",
       postCode: "12345",
       phone: "0408000000",
-      visitType: "Silent",
+      visitType: "Discreet Visit",
       status: "Missed",
       transcription: "I need to reschedule my pizza delivery. I need to reschedule my pizza delivery."
     },
@@ -113,7 +113,7 @@ const callList = [
       state: "TX",
       postCode: "98765",
       phone: "0409000000",
-      visitType: "Urgent",
+      visitType: "Discreet Visit",
       status: "Missed",
       transcription: "I have a question about my pizza order. I have a question about my pizza order."
     },
@@ -126,7 +126,7 @@ const callList = [
       state: "CA",
       postCode: "12345",
       phone: "0410000000",
-      visitType: "Regular",
+      visitType: "Barge In",
       status: "Missed",
       transcription: "Can I schedule a pizza delivery for next week? Can I schedule a pizza delivery for next week?"
     },
@@ -139,7 +139,7 @@ const callList = [
       state: "FL",
       postCode: "54321",
       phone: "0411000000",
-      visitType: "Silent",
+      visitType: "Checkup",
       status: "Pending",
       transcription: "I have a question about my pizza order. I have a question about my pizza order."
     },
@@ -152,7 +152,7 @@ const callList = [
       state: "CA",
       postCode: "12345",
       phone: "0412000000",
-      visitType: "Urgent",
+      visitType: "Checkup",
       status: "Pending",
       transcription: "I need immediate pizza medical attention. I need immediate pizza medical attention."
     }
